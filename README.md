@@ -1,6 +1,6 @@
 # Wikipedia Web Traffic — K-means Traffic Segmentation & Adaptive-MA Forecasting
 
-> My contribution to a team MSc project on multilingual web-traffic time-series forecasting (University of Sheffield). This repo contains **only the module I built** — page-traffic segmentation with K-means, paired with a cluster-adaptive moving-average forecaster. The rest of the study (data preprocessing, PCA, anomaly detection, and the forecasting models: ARIMA/SARIMA, LSTM/GRU, Random Forest/XGBoost) was done by other team members and is not included here.
+> My contribution to a team MSc project on multilingual web-traffic time-series forecasting (University of Sheffield). This repo contains **only the module I built** page-traffic segmentation with K-means, paired with a cluster-adaptive moving-average forecaster. The rest of the study (data preprocessing, PCA, anomaly detection, and the forecasting models: ARIMA/SARIMA, LSTM/GRU, Random Forest/XGBoost) was done by other team members and is not included here.
 
 ---
 
@@ -38,14 +38,11 @@ Groups pages by traffic dynamics with K-means, then forecasts each series with a
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── Data/                      # dataset goes here (not committed)
-│   └── preprocessed_train_2.csv
 ├── src/
 │   └── kmeans_adaptive_ma.py
 └── outputs/                   # generated charts
 ```
 
-*(Suggested layout — rename to match your actual filenames.)*
 
 ---
 
@@ -87,5 +84,5 @@ This is one contributor's portion of a group MSc project. The **K-means segmenta
 
 ## Author
 
-**Ashok Pitta** — Data Engineer / AI & ML
+**Ashok Pitta**  Data Engineer / AI & ML
 [GitHub](https://github.com/AshokPitta)
